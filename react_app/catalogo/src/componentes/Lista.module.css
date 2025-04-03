@@ -1,0 +1,15 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.posters{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}

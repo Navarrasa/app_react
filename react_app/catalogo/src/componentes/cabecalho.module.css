@@ -1,0 +1,6 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 100, 100);
+}
