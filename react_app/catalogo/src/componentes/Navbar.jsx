@@ -3,9 +3,9 @@ export function Navbar(){
     return(
         <nav className={estilo_navbar.conteiner}>
             <ul>
-                <li>Home</li>
-                <li>Home A</li>
-                <li>Home B</li>
+                <li>Filmes</li>
+                <li>Séries</li>
+                <li>Desenhos</li>
             </ul>
         </nav>
     );

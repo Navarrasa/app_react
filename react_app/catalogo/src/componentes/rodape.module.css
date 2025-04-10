@@ -4,5 +4,9 @@
     height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(109, 101, 101);
+    background-color: rgb(31, 29, 29);
+}
+p{
+    color: white;
+    font-size: 20px;
 }
