@@ -14,10 +14,14 @@ ul{
     padding: 0px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 li{
     margin-left: 30px;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

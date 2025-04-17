@@ -9,4 +9,3 @@ export function Card({ movie, onOpenModal }){
         </div>
     );
 }
-

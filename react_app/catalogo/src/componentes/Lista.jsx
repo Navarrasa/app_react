@@ -11,7 +11,6 @@ const API_key = 'af26cce282aecf5c6cc39a264f29d0a7';
 export function Lista(){
     const[movies, setMovies] = useState([]);
     const[SelectedMovie, setSelectedMovie] = useState(null);
-
     
     useEffect(()=>{
         axios.get(`${API_URL}/movie/popular?api_key=${API_key}&language=pt-br`)
@@ -37,7 +36,8 @@ export function Lista(){
         <div className={estilo.conteiner}>
             <figure className={estilo.posters}>
                 {movies.map(movie=>(
-                    <Card key={movie.id} 
+                    <Card 
+                    key={movie.id} 
                     movie={movie}
                     onOpenModal = {handleOpenModal}
                     />
